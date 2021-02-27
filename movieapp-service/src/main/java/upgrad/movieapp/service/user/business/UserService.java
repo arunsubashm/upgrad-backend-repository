@@ -36,5 +36,6 @@ public interface UserService {
     void changeUserStatus(@NotNull String userUuid, @NotNull UserStatus newUserStatus) throws ApplicationException;
 
     void deleteUser(@NotNull String userUuid) throws ApplicationException;
+    
 
 }
